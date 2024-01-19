@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">EzPay</string>
     <string name="ezpay">EzPay</string>
     <string name="marquee_text">Empower Your Transactions, Seamlessly. Your All-in-One Solution for Effortless and Secure Multi-Payment Experiences.</string>
 </resources>
