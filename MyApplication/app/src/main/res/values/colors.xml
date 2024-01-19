@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="icons_color1">#5E4ED1</color>
     <color name="off_purple">#AEA6E7</color>
+    <color name="off_green">#8BDDCE</color>
+    <color name="green">#1BBC9F</color>
 </resources>
