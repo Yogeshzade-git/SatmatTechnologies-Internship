@@ -3,6 +3,8 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.widget.TextView;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
@@ -11,6 +13,8 @@ import com.denzcoskun.imageslider.models.SlideModel;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,5 +34,8 @@ public class MainActivity extends AppCompatActivity {
         ImageSlider imageSlider = findViewById(R.id.image_slider);
         imageSlider.setImageList(imageList);
 
+        textView=findViewById(R.id.marquee_txt);
+        textView.setEllipsize(TextUtils.TruncateAt.MARQUEE);
+        textView.setSelected(true);
     }
 }
