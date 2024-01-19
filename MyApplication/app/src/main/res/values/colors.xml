@@ -6,4 +6,6 @@
     <color name="off_purple">#AEA6E7</color>
     <color name="off_green">#8BDDCE</color>
     <color name="green">#1BBC9F</color>
+    <color name="qr_code_color">#1BBC9F</color>
+
 </resources>

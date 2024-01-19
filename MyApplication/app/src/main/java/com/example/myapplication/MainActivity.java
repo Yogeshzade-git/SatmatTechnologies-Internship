@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         ImageSlider imageSlider = findViewById(R.id.image_slider);
         imageSlider.setImageList(imageList);
 
+        ImageSlider imageSlider1 = findViewById(R.id.image_slider2);
+        imageSlider1.setImageList(imageList);
+
         textView=findViewById(R.id.marquee_txt);
         textView.setEllipsize(TextUtils.TruncateAt.MARQUEE);
         textView.setSelected(true);
